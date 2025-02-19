@@ -12,7 +12,7 @@ public class testPersona {
     public static void main(String[] args) {
         Personas p1 = new Personas();
         // parametros introducidos
-        Personas p2 = new Personas("201548S", 195,29);
+        Personas p2 = new Personas("20154866S", 195,29);
    
    
         System.out.println("informacion sobre la persona 1 por defecto");

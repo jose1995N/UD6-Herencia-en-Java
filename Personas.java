@@ -9,7 +9,7 @@ public Personas(){
     this.Edad = 25;
 }
 //contructor de parametros
-public Personas (String nif, int Altura, int Edad){
+public Personas (String Nif, int Altura, int Edad){
     this.Nif = Nif;
     this.Altura = Altura;
     this.Edad = Edad;
