@@ -12,12 +12,25 @@ public class testPersona {
     public static void main(String[] args) {
         Personas p1 = new Personas();
         // parametros introducidos
-        Personas p2 = new Personas("20154866S", 195,29);
+        Personas p2 = new Personas("2015486S", 195,29);
+
+        ingeniero i1 = new ingeniero();
+        ingeniero i2 = new ingeniero();
+
+        IngenieroInformatico if1 = new IngenieroInformatico();
+        IngenieroInformatico if2 = new IngenieroInformatico();
+        
    
    
-        System.out.println("informacion sobre la persona 1 por defecto");
+        System.out.println("informacion sobre la persona 1 por defecto:");
          p1.mostrar();
-        System.out.println("Informacion de persona 2 con los valores introducidos");
+        System.out.println("Informacion de persona 2 con los valores introducidos:");
         p2.mostrar();
-}
+
+        i1.razonar();
+        i2.trabajarEnGrupo();
+
+        if1.CrearPorgramas();
+        if2.CrearPorgramas();
+}   
 }

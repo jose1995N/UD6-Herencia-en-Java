@@ -22,6 +22,7 @@ public String getNif(){
 public int getAltura(){
     return Altura;
 }
+
 public int getEdad(){
     return Edad;
 }
@@ -39,8 +40,6 @@ public void setEdad(int Edad){
     this.Edad = Edad;
 }
 public void mostrar(){
-    System.out.println("Nif " + Nif);
-    System.out.println("Altura " + Altura +" cm");
-    System.out.println("Edad " + Edad + " Años");
+    System.out.println("Nif " + Nif + " Altura " + Altura + " cm "+ "Edad " +  Edad  + " Años ");
 }
 }
